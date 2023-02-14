@@ -9,7 +9,7 @@
 }
 
 .index-footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   padding: 15px 0;
@@ -36,12 +36,11 @@
 }
 
 #profile-pic {
-  float: right;
   padding-left: 25px;
 }
 
 .about-footer {
-  position: absolute;
+  position: relative;
   bottom: 0;
   width: 100%;
   padding: 15px 0;
