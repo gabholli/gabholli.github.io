@@ -14,11 +14,6 @@
   text-align: center;
 }
 
-#index-nav {
-  overflow: auto;
-  text-align: left;
-}
-
 .index-footer {
   position: relative;
   bottom: 0;
@@ -39,15 +34,7 @@
   column-gap: 1%;
 }
 
-#para-one {
-  font-size: 1vw;
-}
-
-#para-two {
-  font-size: 1vw;
-}
-
-#para-three {
+.about-paragraphs {
   font-size: 1vw;
 }
 
