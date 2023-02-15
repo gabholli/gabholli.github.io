@@ -28,10 +28,26 @@
 }
 
 .about-main {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  column-gap: 1%;
+  text-align: center;
+}
+
+.display-inline {
+  display: inline-block;
+
+}
+#para-one {
+  text-align: left;
+  font-size: 1vw;
+}
+
+#para-two {
+  text-align: left;
+  font-size: 1vw;
+}
+
+#para-three {
+  text-align: left;
+  font-size: 1vw;
 }
 
 #profile-pic {
