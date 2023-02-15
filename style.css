@@ -21,6 +21,10 @@
   background-image: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?size=626&ext=jpg&ga=GA1.1.680351004.1676338594&semt=ais');
 }
 
+#about me {
+  font-size: 10vw;
+}
+
 .about-main {
   display: flex;
   align-items: center;
@@ -28,7 +32,7 @@
 }
 
 #para-one {
-  
+
 }
 
 #para-two {
@@ -36,7 +40,7 @@
 }
 
 #profile-pic {
-  padding-left: 25px;
+  max-width: 100%;
 }
 
 .about-footer {
