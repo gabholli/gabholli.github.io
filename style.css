@@ -1,4 +1,4 @@
-html {
+/* html {
   font-size: 16px;
 }
 
@@ -18,13 +18,13 @@ html {
   p {
     font-size: 1.75rem;
   }
-}
+} */
 
-/* @media only screen and (max-width: 620px) {
+@media only screen and (max-width: 620px) {
   .about-body, .index-body {
     width: 100%;
   }
-} */
+}
 
 .index-body {
   font-family: "Arial";
