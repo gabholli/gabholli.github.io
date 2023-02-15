@@ -31,15 +31,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 5%;
 }
 
 #para-one {
+
 }
 
 #para-two {
+
 }
 
 #para-three {
+
 }
 
 #profile-pic {
