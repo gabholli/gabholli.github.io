@@ -2,8 +2,22 @@ html {
   font-size: 16px;
 }
 
-pre {
-  font-size: calc(1rem + 1vw);
+@media (min-width: 0px) {
+  p  {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 400px) {
+  p {
+    font-size: calc(1rem + 1vw);
+  }
+}
+
+@media (min-width: 1001px) {
+  p {
+    font-size: 1.75rem;
+  }
 }
 
 /* @media only screen and (max-width: 620px) {
@@ -35,6 +49,10 @@ pre {
   background-image: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?size=626&ext=jpg&ga=GA1.1.680351004.1676338594&semt=ais');
 }
 
+.about-main {
+  text-align: center;
+}
+
 .display-inline {
   display: inline-block;
 }
@@ -54,9 +72,6 @@ pre {
 #profile-pic {
   max-width: 100%;
   height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 .about-footer {
