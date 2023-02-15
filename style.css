@@ -20,6 +20,11 @@
   .about-body {
     width: 100%;
   }
+
+  #para-one, para-two, para-three {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .about-body {
@@ -35,23 +40,20 @@
 
 #para-one {
   font-size: 1vw;
-  margin: 25px;
 }
 
 #para-two {
   font-size: 1vw;
-  margin: 25px;
 }
 
 #para-three {
   font-size: 1vw;
-  margin: 25px;
 }
 
 #profile-pic {
   max-width: 100%;
   height: auto;
-  margin: 25px;
+  display: block;
 }
 
 .about-footer {
