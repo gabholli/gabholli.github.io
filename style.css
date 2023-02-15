@@ -22,7 +22,7 @@
 }
 
 #about me {
-  font-size: 10vw;
+
 }
 
 .about-main {
@@ -32,15 +32,18 @@
 }
 
 #para-one {
-  font-size: 10vw;
+  font-size: 1vw;
 }
 
 #para-two {
-  font-size: 10vw;
+  font-size: 1vw;
 }
 
+#para-three {
+  font-size: 1vw;
+}
 #profile-pic {
-  max-width: 100%;
+  width: 100%;
 }
 
 .about-footer {
