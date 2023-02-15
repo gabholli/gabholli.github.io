@@ -34,8 +34,8 @@
   column-gap: 1%;
 }
 
-.about-paragraphs {
-  
+#para-one {
+  font-family: monospace;
 }
 
 #profile-pic {
