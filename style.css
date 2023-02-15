@@ -1,3 +1,9 @@
+@media only screen and (max-width: 620px) {
+  .about-body, .index-body {
+    width: 100%;
+  }
+}
+
 .index-body {
   font-family: "Arial";
   background-image: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?size=626&ext=jpg&ga=GA1.1.680351004.1676338594&semt=ais');
@@ -8,18 +14,17 @@
   text-align: center;
 }
 
+#index-nav {
+  overflow: auto;
+  text-align: left;
+}
+
 .index-footer {
   position: relative;
   bottom: 0;
   width: 100%;
   padding: 15px 0;
   text-align: center;
-}
-
-@media only screen and (max-width: 620px) {
-  .about-body {
-    width: 100%;
-  }
 }
 
 .about-body {
