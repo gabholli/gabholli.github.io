@@ -44,6 +44,10 @@ html {
   text-align: center;
 }
 
+.index-nav {
+
+}
+
 .about-body {
   font-family: "Arial";
   background-image: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?size=626&ext=jpg&ga=GA1.1.680351004.1676338594&semt=ais');
@@ -70,14 +74,6 @@ h1 {
 }
 
 #para-three {
-  text-align: left;
-}
-
-#para-four {
-  text-align: left;
-}
-
-#para-five {
   text-align: left;
 }
 
