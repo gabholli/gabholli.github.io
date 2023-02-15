@@ -20,9 +20,6 @@ html {
   }
 }
 
-p {
-  overflow-wrap: break-word;
-}
 /* @media only screen and (max-width: 620px) {
   .about-body, .index-body {
     width: 100%;
@@ -50,6 +47,10 @@ p {
 .about-body {
   font-family: "Arial";
   background-image: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?size=626&ext=jpg&ga=GA1.1.680351004.1676338594&semt=ais');
+}
+
+h1 {
+  font-size: 50px;
 }
 
 .about-main {
