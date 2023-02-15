@@ -20,6 +20,9 @@ html {
   }
 }
 
+p {
+  overflow-wrap: break-word;
+}
 /* @media only screen and (max-width: 620px) {
   .about-body, .index-body {
     width: 100%;
