@@ -60,18 +60,17 @@ html {
 }
 
 .links {
-  color: black;
-  margin: 1%;
+  margin: 1.25%;
   transition: color 0.2s;
   text-decoration: none;
 }
 
-.links:hover {
-  color: grey;
+.links:visited {
+  color: inherit;
 }
 
-.links:visited {
-  color: black;
+.links:hover {
+  color: grey;
 }
 
 .about-body {
