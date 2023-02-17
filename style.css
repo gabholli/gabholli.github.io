@@ -28,7 +28,9 @@ html {
 
 .index-body {
   font-family: "Arial";
-  background-image: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?size=626&ext=jpg&ga=GA1.1.680351004.1676338594&semt=ais');
+  background-image: url("white_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .index-header {
@@ -54,7 +56,9 @@ html {
 
 .about-body {
   font-family: "Arial";
-  background-image: url('https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?size=626&ext=jpg&ga=GA1.1.680351004.1676338594&semt=ais');
+  background-image: url("white_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .about-header {
