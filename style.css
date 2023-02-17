@@ -29,7 +29,8 @@ html {
 .index-body {
   font-family: "Arial";
   background-image: url("white_background.jpg");
-  background-size: cover;
+  background-position: center;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -43,7 +44,8 @@ html {
 }
 
 .index-footer {
-  position: relative;
+  background-color: #D3D3D3;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 15px 0;
@@ -57,7 +59,8 @@ html {
 .about-body {
   font-family: "Arial";
   background-image: url("white_background.jpg");
-  background-size: cover;
+  background-position: center;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -91,7 +94,8 @@ html {
 }
 
 .about-footer {
-  position: relative;
+  background-color: #D3D3D3;
+  position: fixed;
   bottom: 0;
   width: 100%;
   padding: 15px 0;
