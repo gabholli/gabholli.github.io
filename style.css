@@ -46,7 +46,9 @@ html {
 .index-footer {
   background-color: #D3D3D3;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
   padding: 15px 0;
   text-align: center;
@@ -96,7 +98,9 @@ html {
 .about-footer {
   background-color: #D3D3D3;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   width: 100%;
   padding: 15px 0;
   text-align: center;
