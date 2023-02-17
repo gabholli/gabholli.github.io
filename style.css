@@ -60,14 +60,9 @@ html {
 }
 
 .links {
-  color: black;
   margin: 1.25%;
   transition: color 0.2s;
   text-decoration: none;
-}
-
-.links:visited {
-  color: black;
 }
 
 .links:hover {
