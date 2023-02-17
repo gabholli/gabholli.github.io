@@ -69,6 +69,10 @@ html {
   color: grey;
 }
 
+.links:visited {
+  color:inherit;
+}
+
 .about-body {
   font-family: "Arial";
   background-image: url("blue_background.jpg");
