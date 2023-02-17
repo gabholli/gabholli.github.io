@@ -28,7 +28,7 @@ html {
 
 .index-body {
   font-family: "Arial";
-  background-image: url("white_background.jpg");
+  background-image: url("blue_background.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@ html {
 
 .about-body {
   font-family: "Arial";
-  background-image: url("white_background.jpg");
+  background-image: url("blue_background.jpg");
   background-position: center;
   background-size: auto;
   background-repeat: no-repeat;
