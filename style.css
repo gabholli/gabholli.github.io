@@ -59,6 +59,14 @@ html {
 
 }
 
+#projects-link {
+  margin: 2%;
+}
+
+#about-link {
+  margin: 2%;
+}
+
 .about-body {
   font-family: "Arial";
   background-image: url("blue_background.jpg");
@@ -82,14 +90,17 @@ html {
 
 #para-one {
   text-align: left;
+  text-indent: 50px;
 }
 
 #para-two {
   text-align: left;
+  text-indent: 50px;
 }
 
 #para-three {
   text-align: left;
+  text-indent: 50px;
 }
 
 #profile-pic {
