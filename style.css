@@ -41,12 +41,12 @@ html {
 .index-main {
   font-size: 25px;
   text-align: center;
-  margin-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 .index-footer {
   background-color: #D3D3D3;
-  position: relative;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -73,7 +73,7 @@ html {
 
 .about-main {
   text-align: center;
-  margin-bottom: 1%;
+  padding-bottom: 5%;
 }
 
 .display-inline {
@@ -99,7 +99,7 @@ html {
 
 .about-footer {
   background-color: #D3D3D3;
-  position: relative;
+  position: fixed;
   bottom: 0px;
   left: 0px;
   right: 0px;
