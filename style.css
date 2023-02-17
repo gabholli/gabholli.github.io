@@ -41,6 +41,7 @@ html {
 .index-main {
   font-size: 25px;
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .index-footer {
@@ -51,7 +52,7 @@ html {
   right: 0px;
   width: 100%;
   padding: 15px 0;
-  text-align: center;
+  text-align: center
 }
 
 .index-nav {
@@ -72,6 +73,7 @@ html {
 
 .about-main {
   text-align: center;
+  margin-bottom: 5%;
 }
 
 .display-inline {
