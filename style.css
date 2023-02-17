@@ -90,17 +90,17 @@ html {
 
 #para-one {
   text-align: left;
-  text-indent: 50px;
+  text-indent: 3%;
 }
 
 #para-two {
   text-align: left;
-  text-indent: 50px;
+  text-indent: 3%;
 }
 
 #para-three {
   text-align: left;
-  text-indent: 50px;
+  text-indent: 3%;
 }
 
 #profile-pic {
@@ -117,4 +117,8 @@ html {
   width: 100%;
   padding: 15px 0;
   text-align: center;
+}
+
+#about-home-link {
+
 }
