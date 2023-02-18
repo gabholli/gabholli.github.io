@@ -86,21 +86,21 @@ html {
   margin-bottom: 7.5rem;
 }
 
-.display-inline {
+.display-inline-about {
   display: inline-block;
 }
 
-#para-one {
+#about-para-one {
   text-align: left;
   text-indent: 3%;
 }
 
-#para-two {
+#about-para-two {
   text-align: left;
   text-indent: 3%;
 }
 
-#para-three {
+#about-para-three {
   text-align: left;
   text-indent: 3%;
 }
@@ -129,11 +129,32 @@ html {
   background-repeat: no-repeat;
 }
 
-.projects-main {
-  text-align: center;
-}
 .projects-header {
   font-size: 25px;
+}
+
+.projects-main {
+  text-align: center;
+  padding-bottom: 7.5rem;
+}
+
+.display-inline-projects {
+  display: inline-block;
+}
+
+#project-one {
+  text-align: left;
+  text-indent: 3%;
+}
+
+#project-two {
+  text-align: left;
+  text-indent: 3%;
+}
+
+#project-three {
+  text-align: left;
+  text-indent: 3%;
 }
 
 .projects-footer {
