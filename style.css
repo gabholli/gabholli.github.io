@@ -121,6 +121,28 @@ html {
   text-align: center;
 }
 
-#about-home-link {
+.projects-body {
+  font-family: "Arial";
+  background-image: url("blue_background.jpg");
+  background-position: center;
+  background-size: 100% 100% 100% 100%;
+  background-repeat: no-repeat;
+}
 
+.projects-main {
+  text-align: center;
+}
+.projects-header {
+  font-size: 25px;
+}
+
+.projects-footer {
+  background-color: #D3D3D3;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
 }
