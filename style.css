@@ -148,17 +148,7 @@ html {
   display: inline-block;
 }
 
-#project-one {
-  text-align: left;
-  text-indent: 3%;
-}
-
-#project-two {
-  text-align: left;
-  text-indent: 3%;
-}
-
-#project-three {
+.project-para {
   text-align: left;
   text-indent: 3%;
 }
