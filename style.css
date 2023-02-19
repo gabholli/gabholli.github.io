@@ -75,10 +75,11 @@ html {
 
 .about-body {
   font-family: "Arial";
-  background-image: url("cube_background.png");
-  background-position: center;
+  background: url("cube_background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
+  -o-background-size: cover;
 }
 
 .about-header {
@@ -127,10 +128,11 @@ html {
 
 .projects-body {
   font-family: "Arial";
-  background-image: url("cube_background.png");
-  background-position: center;
+  background: url("cube_background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
-  background-repeat: no-repeat;
+  -o-background-size: cover;
 }
 
 .projects-header {
