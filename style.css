@@ -47,11 +47,11 @@ html {
 }
 
 #index-graduate-text {
-  font-size: 65px;
+  font-size: calc(16px + 3vw);
 }
 
 #index-main-text {
-  font-size: 25px;
+  font-size: calc(16px + .5vw);
 }
 
 .index-footer {
