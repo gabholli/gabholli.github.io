@@ -30,7 +30,7 @@ html {
   font-family: "Arial";
   background-image: url("cube_background.png");
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100% 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -76,7 +76,7 @@ html {
   font-family: "Arial";
   background-image: url("cube_background.png");
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100% 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -128,7 +128,7 @@ html {
   font-family: "Arial";
   background-image: url("cube_background.png");
   background-position: center;
-  background-size: cover;
+  background-size: 100% 100% 100% 100%;
   background-repeat: no-repeat;
 }
 
