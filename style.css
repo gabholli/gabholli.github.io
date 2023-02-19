@@ -28,9 +28,9 @@ html {
 
 .index-body {
   font-family: "Arial";
-  /* background-image: url("blue_background.jpg"); */
+  background-image: url("cube_background.png");
   background-position: center;
-  background-size: 100% 100% 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -74,9 +74,9 @@ html {
 
 .about-body {
   font-family: "Arial";
-  /* background-image: url("blue_background.jpg"); */
+  background-image: url("cube_background.png");
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -126,9 +126,9 @@ html {
 
 .projects-body {
   font-family: "Arial";
-  /* background-image: url("blue_background.jpg"); */
+  background-image: url("cube_background.png");
   background-position: center;
-  background-size: 100% 100% 100% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
