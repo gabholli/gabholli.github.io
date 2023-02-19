@@ -27,7 +27,7 @@ html {
 } */
 
 .index-body {
-  font-family: "Verdana";
+  font-family: "Times New Roman";
   background: url("cube_background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -74,7 +74,7 @@ html {
 }
 
 .about-body {
-  font-family: "Verdana";
+  font-family: "Times New Roman";
   background: url("cube_background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -127,7 +127,7 @@ html {
 }
 
 .projects-body {
-  font-family: "Verdana";
+  font-family: "Times New Roman";
   background: url("cube_background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
