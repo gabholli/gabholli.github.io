@@ -28,7 +28,7 @@ html {
 
 .index-body {
   font-family: "Arial";
-  background-image: url("blue_background.jpg");
+  /* background-image: url("blue_background.jpg"); */
   background-position: center;
   background-size: 100% 100% 100% 100%;
   background-repeat: no-repeat;
@@ -39,7 +39,7 @@ html {
 }
 
 .index-main {
-  background-image: url("white_background.jpg");
+  /* background-image: url("white_background.jpg"); */
   background-size: 100% 100%;
   font-size: 25px;
   text-align: center;
@@ -74,7 +74,7 @@ html {
 
 .about-body {
   font-family: "Arial";
-  background-image: url("blue_background.jpg");
+  /* background-image: url("blue_background.jpg"); */
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ html {
 
 .projects-body {
   font-family: "Arial";
-  background-image: url("blue_background.jpg");
+  /* background-image: url("blue_background.jpg"); */
   background-position: center;
   background-size: 100% 100% 100% 100%;
   background-repeat: no-repeat;
