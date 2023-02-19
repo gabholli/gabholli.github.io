@@ -48,12 +48,10 @@ html {
 
 #index-graduate-text {
   font-size: calc(16px + 3vw);
-  vertical-align: middle;
 }
 
 #index-main-text {
   font-size: calc(16px + .5vw);
-  vertical-align: middle;
 }
 
 .index-footer {
