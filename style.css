@@ -27,7 +27,7 @@ html {
 } */
 
 .index-body {
-  font-family: "Times New Roman";
+  font-family: "Arial";
   background: url("cube_background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -42,13 +42,13 @@ html {
 .index-main {
   /* background-image: url("white_background.jpg"); */
   /* background-size: 100% 100%; */
+  font-family: "Arial";
   display: grid;
   align-items: left;
   /* font-size: 25px  ; */
   text-align: left;
   margin: 5%;
-  /* padding-top: 15%;
-  padding-bottom: 15%; */
+  padding: 10% 0;
 }
 
 #index-graduate-text {
@@ -86,7 +86,7 @@ html {
 }
 
 .about-body {
-  font-family: "Times New Roman";
+  font-family: "Arial";
   background: url("cube_background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -139,7 +139,7 @@ html {
 }
 
 .projects-body {
-  font-family: "Times New Roman";
+  font-family: "Arial";
   background: url("cube_background.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
