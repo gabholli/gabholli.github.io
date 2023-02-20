@@ -2,6 +2,8 @@ html {
   font-size: 16px;
 }
 
+/*The three rules below help in adjusting
+for different screen sizes*/
 @media (min-width: 0px) {
   p  {
     font-size: 1rem;
@@ -26,6 +28,7 @@ html {
   }
 } */
 
+/*Rules used for the home page*/
 .index-body {
   font-family: "Arial";
   background: url("cube_background.png") no-repeat center center fixed;
@@ -65,20 +68,19 @@ html {
   text-align: center
 }
 
-.index-nav {
-
-}
-
+/*Rule for all links used in website*/
 .links {
   margin: 1.25%;
   transition: color 0.2s;
   text-decoration: none;
 }
 
+/*Changes color of link to grey when mouse hovers over*/
 .links:hover {
   color: grey;
 }
 
+/*Rules used in About Me page*/
 .about-body {
   font-family: "Arial";
   background: url("cube_background.png") no-repeat center center fixed;
@@ -96,7 +98,10 @@ html {
   text-align: center;
   margin-bottom: 7.5rem;
 }
-
+/*Rule used to set all paragraphs in
+about.html to display: inline-block,
+allowing for left-aligning centered
+text*/
 .display-inline-about {
   display: inline-block;
 }
@@ -116,6 +121,7 @@ html {
   text-indent: 3%;
 }
 
+/*Rule for image in about.html*/
 #profile-pic {
   max-width: 100%;
   height: 100%;
@@ -132,6 +138,7 @@ html {
   text-align: center;
 }
 
+/*Rule for Projects page*/
 .projects-body {
   font-family: "Arial";
   background: url("cube_background.png") no-repeat center center fixed;
