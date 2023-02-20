@@ -5,6 +5,7 @@ html {
 @media (min-width: 0px) {
   p  {
     font-size: 1rem;
+    font-size: 1px;
   }
 }
 
