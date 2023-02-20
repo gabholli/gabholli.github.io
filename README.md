@@ -10,4 +10,6 @@ implemented.
 The repository contains several other files: a photo of myself, a favicon icon
 file, and a simple background image.
 
+I update the page when needed.
+
 Go to https://gabholli.github.io to visit the website!
