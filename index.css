@@ -432,6 +432,12 @@ body:not(.user-is-tabbing) a:focus {
         text-align: center;
     }
 
+    .header__text-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .header__text p {
         transform: scale(.8);
     }
