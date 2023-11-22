@@ -1,7 +1,7 @@
 # My Github Page
 
-This repository contains the files for my personal Github Page. Three HTML and one
-CSS file make up the website. The website's size did not require more than one
+This repository contains the files for my personal Github Page, including an HTML, CSS, and JavaScript file.
+The website's size did not require more than one
 CSS file.
 
 I update the page when needed.
