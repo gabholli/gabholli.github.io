@@ -1,9 +1,37 @@
-# My Github Page
+# Project Title
+Simple overview of use/purpose.
 
-This repository contains the files for my personal Github Page. Three HTML and one
-CSS file make up the website. The website's size did not require more than one
-CSS file.
+## Description
+An in-depth paragraph about your project and overview of use.
 
-I update the page when needed.
+## Getting Started
+### Dependencies
+- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+- ex. Windows 10
+### Installing
+- How/where to download your program
+- Any modifications needed to be made to files/folders
+### Executing program
+- How to run the program
+- Step-by-step bullets
+## Help
+Any advise for common problems or issues.
 
-Go to https://gabholli.github.io to visit the website!
+command to run if program contains helper info
+## Authors
+Contributors names and contact info
+
+ex. Dominique Pizzie
+ex. @DomPizzie
+
+## Version History
+- 0.2
+Various bug fixes and optimizations
+See commit change or See release history
+- 0.1
+Initial Release
+## License
+This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+
+##Acknowledgments
+Inspiration, code snippets, etc.
