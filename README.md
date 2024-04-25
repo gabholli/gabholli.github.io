@@ -1,37 +1,21 @@
 # Project Title
-Simple overview of use/purpose.
+My Github Page
 
 ## Description
-An in-depth paragraph about your project and overview of use.
+This project contains files for my personal portfoilo to showcase my work and contact information.
 
 ## Getting Started
 ### Dependencies
-- Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-- ex. Windows 10
+- Runs within one's web browser of choice
 ### Installing
-- How/where to download your program
-- Any modifications needed to be made to files/folders
+- This web page does not require any direct installation on your computer
 ### Executing program
-- How to run the program
-- Step-by-step bullets
-## Help
-Any advise for common problems or issues.
+- To execute, navigate within your web browser to https://gabholli.github.io
 
-command to run if program contains helper info
 ## Authors
-Contributors names and contact info
-
-ex. Dominique Pizzie
-ex. @DomPizzie
+Gabe Hollifield
 
 ## Version History
-- 0.2
-Various bug fixes and optimizations
-See commit change or See release history
-- 0.1
-Initial Release
-## License
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-##Acknowledgments
-Inspiration, code snippets, etc.
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
