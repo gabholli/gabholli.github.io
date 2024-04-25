@@ -90,7 +90,7 @@ body {
     max-width: 500px;
     margin: 1.5em auto;
     padding: 1em;
-    box-shadow: 2px 2px 5px #DBDBDB;
+    box-shadow: 2px 2px 5px #c4cbcf;
     /* opacity: .95; */
 }
 
@@ -174,7 +174,7 @@ body {
     object-fit: cover;
     object-position: center;
     border-radius: 25px;
-    box-shadow: 2px 2px 5px #DBDBDB;
+    box-shadow: 2px 2px 5px #c4cbcf;
 }
 
 .about-paragraphs {
@@ -186,7 +186,7 @@ body {
     line-height: 1.5;
     border-radius: 10px;
     background-color: #e4ebec;
-    box-shadow: 2px 2px 5px #DBDBDB;
+    box-shadow: 2px 2px 5px #c4cbcf;
     /* opacity: .95; */
 }
 
