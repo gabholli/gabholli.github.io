@@ -86,7 +86,7 @@ body {
         "description"
         "links"; */
     border-radius: 10px;
-    background-color: #EDEDED;
+    background-color: #e4ebec;
     max-width: 500px;
     margin: 1.5em auto;
     padding: 1em;
@@ -185,7 +185,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     border-radius: 10px;
-    background-color: #EDEDED;
+    background-color: #e4ebec;
     box-shadow: 2px 2px 5px #DBDBDB;
     /* opacity: .95; */
 }
@@ -199,7 +199,7 @@ body {
     align-items: center;
     height: 9svh;
     width: 100vw;
-    background-color: #C8C8C8;
+    background-color: #eeeeec;
     bottom: 0;
     opacity: .90;
 }
