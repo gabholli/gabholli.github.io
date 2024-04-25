@@ -156,6 +156,7 @@ body {
     border: none;
     background-color: #e4ebec;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* About me page rules */
