@@ -1,0 +1,301 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Garamond;
+    src: url("./fonts/CormorantGaramond-Medium.ttf");
+}
+
+/* Utility classes */
+
+.desktop {
+    display: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Garamond, serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-image: url("./images/clouds.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Home page rules */
+
+.home-page-main-content {
+    height: 91svh;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-template-areas:
+        ". . ."
+        ". home ."
+        ". . .";
+}
+
+.home-page-container {
+    grid-area: home;
+    place-self: center;
+    justify-self: center;
+}
+
+.home-page-text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.home-page-sub-text {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Projects page rules */
+
+.projects-page-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.web-heading-container {
+    padding-top: 1em;
+}
+
+.projects-container {
+    display: grid;
+    grid-template: repeat(3, auto) / 1fr;
+    margin: 2em 1.25em;
+}
+
+.project-section {
+    display: flex;
+    flex-direction: column;
+    /* display: grid; */
+    /* grid-template: repeat(5, auto) / 1fr;
+    grid-template-areas:
+        "image"
+        "date"
+        "title"
+        "description"
+        "links"; */
+    border-radius: 10px;
+    background-color: #EDEDED;
+    max-width: 500px;
+    margin: 1.5em auto;
+    padding: 1em;
+    box-shadow: 2px 2px 5px #DBDBDB;
+    /* opacity: .95; */
+}
+
+.projects-heading {
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* .project-image,
+.project-date,
+.project-title,
+.project-description {
+    align-self: center;
+} */
+
+.project-image {
+    width: 100%;
+    height: 191px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 10px;
+}
+
+.project-date {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    height: 45px;
+}
+
+.project-description {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.project-link-and-icon {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    column-gap: 2.5em;
+    margin-top: auto;
+}
+
+.project-site-link {
+    text-decoration: none;
+}
+
+.project-github-link {
+    height: 30px;
+    filter: opacity(0.5) drop-shadow(0 0 0 black);
+
+}
+
+/* About me page rules */
+
+.about-page-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+
+.about-heading {
+    font-size: 2rem;
+}
+
+#about-profile-pic {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px #DBDBDB;
+}
+
+.about-paragraphs {
+    margin: 2em;
+    text-indent: 5%;
+    max-width: 800px;
+    padding: 1em;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    background-color: #EDEDED;
+    box-shadow: 2px 2px 5px #DBDBDB;
+    /* opacity: .95; */
+}
+
+/* Footer rules */
+
+.footer-container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 9svh;
+    width: 100vw;
+    background-color: #C8C8C8;
+    bottom: 0;
+    opacity: .90;
+}
+
+.footer-sub-container {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .desktop {
+        display: block;
+    }
+
+    .projects-container {
+        grid-template: repeat(2, auto) / repeat(2, 1fr);
+        gap: 2em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    /* .project-section {
+        grid-template: 200px 50px 80px auto / 1fr;
+        grid-template-areas:
+            "image"
+            "date"
+            "title"
+            "description"
+            "links";
+    } */
+
+    .about-page-main-container {
+        padding: 1em 4em;
+    }
+
+    #about-profile-pic {
+        float: left;
+        margin: 1em;
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 20px;
+    }
+
+    .projects-container {
+        gap: 5em;
+        grid-template: auto / repeat(2, 1fr);
+    }
+
+    /* .project-section {
+        grid-template: 200px 50px 110px auto / 1fr;
+        grid-template-areas:
+            "image"
+            "date"
+            "title"
+            "description"
+            "links";
+    } */
+}
+
+@media (min-width: 1440px) {
+    .projects-container {
+        grid-template: auto / repeat(3, 1fr);
+        gap: 4.3em;
+    }
+
+    .about-paragraphs {
+        font-weight: 600;
+    }
+}
+
+@media (min-width: 2560px) {
+    html {
+        font-size: 35px;
+    }
+
+    .projects-container {
+        gap: 6em;
+        margin: 0 5em;
+    }
+
+    /* .project-section {
+        grid-template: 200px 50px 250px auto / 1fr;
+        grid-template-areas:
+            "image"
+            "date"
+            "title"
+            "description"
+            "links";
+        max-width: 2000px;
+    } */
+}
