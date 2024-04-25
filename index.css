@@ -152,6 +152,12 @@ body {
 
 }
 
+.back-to-top-button {
+    border: none;
+    background-color: #e4ebec;
+    border-radius: 10px;
+}
+
 /* About me page rules */
 
 .about-page-main-container {
