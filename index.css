@@ -153,10 +153,16 @@ body {
 }
 
 .back-to-top-button {
+    height: 30px;
+    width: 120px;
     border: none;
     background-color: #e4ebec;
     border-radius: 10px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /* About me page rules */
