@@ -207,6 +207,10 @@ body {
     /* opacity: .95; */
 }
 
+.about-paragraphs p {
+    font-weight: 400;
+}
+
 /* Footer rules */
 
 .footer-container {
