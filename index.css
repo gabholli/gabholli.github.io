@@ -296,7 +296,7 @@ body {
     }
 
     .about-paragraphs {
-        font-weight: 600;
+        font-weight: 400;
     }
 }
 
@@ -308,6 +308,10 @@ body {
     .projects-container {
         gap: 6em;
         margin: 0 5em;
+    }
+
+    .project-title {
+        font-size: 1.1rem;
     }
 
     /* .project-section {
