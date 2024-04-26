@@ -122,10 +122,10 @@ body {
 }
 
 .project-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-style: normal;
     font-weight: 700;
-    height: 45px;
+    /* height: 45px; */
 }
 
 .project-description {
@@ -311,7 +311,7 @@ body {
     }
 
     .project-title {
-        font-size: 1.1rem;
+        font-size: .95rem;
     }
 
     /* .project-section {
