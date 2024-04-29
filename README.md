@@ -3,6 +3,7 @@ My Github Page
 
 ## Description
 This project contains files for my personal portfoilo to showcase my work and contact information.
+This site was created using HTML5, CSS3, and JavaScript.
 
 ## Getting Started
 ### Dependencies
