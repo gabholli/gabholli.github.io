@@ -16,7 +16,5 @@ This site was created using HTML5, CSS3, and JavaScript.
 ## Authors
 Gabe Hollifield
 
-## Version History
-
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details
