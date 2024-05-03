@@ -4,7 +4,7 @@ const backToTopButton = document.getElementById("back-to-top-button")
 const scrollToTop = () => {
     window.scrollTo({
         top: 0,
-        behavior: 'smooth'  // for smoothly scrolling
+        behavior: 'smooth'  // for smooth scrolling
     });
 };
 
