@@ -15,10 +15,26 @@
     display: none;
 }
 
+@keyframes cascadeToLeft {
+    from {
+        transform: translateX(100%);
+        /* Start off-screen to the right */
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        /* End at its normal position */
+        opacity: 1;
+    }
+}
+
+
 body {
     padding: 0;
     margin: 0;
     font-family: Garamond, serif;
+    overflow-x: hidden;
     /* font-family: Arial, Helvetica, sans-serif; */
     /* background-image: url("./images/clouds.jpg"); */
     /* background-position: center;
@@ -239,6 +255,11 @@ body {
 @media (min-width: 768px) {
     .desktop {
         display: block;
+    }
+
+    .projects-page-main-content,
+    .about-paragraphs {
+        animation: cascadeToLeft 1s ease forwards;
     }
 
     .projects-container {
