@@ -8,5 +8,10 @@ const scrollToTop = () => {
     });
 };
 
+if (backToTopButton) {
+    backToTopButton.addEventListener('click', scrollToTop);
+}
 
-backToTopButton.addEventListener('click', scrollToTop)
+window.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('.fade-in').classList.add('visible');
+});
