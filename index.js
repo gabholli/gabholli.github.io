@@ -12,6 +12,6 @@ if (backToTopButton) {
     backToTopButton.addEventListener('click', scrollToTop);
 }
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('load', () => {
     document.querySelector('.fade-in').classList.add('visible');
 });
