@@ -126,20 +126,20 @@ body {
 }
 
 .project-date {
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-style: normal;
     font-weight: 400;
 }
 
 .project-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-style: normal;
     font-weight: 700;
     /* height: 45px; */
 }
 
 .project-description {
-    font-size: 1rem;
+    font-size: .95rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -154,11 +154,13 @@ body {
 }
 
 .project-site-link {
+    font-size: .95rem;
+
     text-decoration: none;
 }
 
 .project-github-link {
-    height: 30px;
+    height: 25px;
     filter: opacity(0.5) drop-shadow(0 0 0 black);
 
 }
@@ -208,7 +210,7 @@ body {
     text-indent: 5%;
     max-width: 800px;
     padding: 1em;
-    font-size: 1rem;
+    font-size: .95rem;
     line-height: 1.5;
     border: 1px solid #c4cbcf;
     border-radius: 10px;
