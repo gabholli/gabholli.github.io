@@ -154,13 +154,12 @@ body {
 }
 
 .project-site-link {
-    font-size: .95rem;
-
+    font-size: 1rem;
     text-decoration: none;
 }
 
 .project-github-link {
-    height: 25px;
+    height: 30px;
     filter: opacity(0.5) drop-shadow(0 0 0 black);
 
 }
