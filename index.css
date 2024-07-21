@@ -28,8 +28,8 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: Garamond, serif;
-    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Garamond, serif; */
+    font-family: Arial, Helvetica, sans-serif;
     /* background-image: url("./images/clouds.jpg"); */
     /* background-position: center;
     background-repeat: no-repeat;
@@ -119,27 +119,28 @@ body {
 
 .project-image {
     width: 100%;
-    height: 191px;
+    height: 150px;
     object-fit: contain;
     object-position: center;
     border-radius: 10px;
+    margin-bottom: .8em;
 }
 
 .project-date {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 400;
 }
 
 .project-title {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 700;
     /* height: 45px; */
 }
 
 .project-description {
-    font-size: 1rem;
+    font-size: .9rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -154,12 +155,12 @@ body {
 }
 
 .project-site-link {
-    font-size: 1rem;
+    font-size: .9rem;
     text-decoration: none;
 }
 
 .project-github-link {
-    height: 30px;
+    height: 25px;
     filter: opacity(0.5) drop-shadow(0 0 0 black);
 
 }
