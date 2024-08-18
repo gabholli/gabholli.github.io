@@ -208,7 +208,6 @@ body {
     object-fit: cover;
     object-position: center;
     border-radius: 25px;
-    box-shadow: 2px 2px 5px white;
 }
 
 .about-paragraphs {
