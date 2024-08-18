@@ -98,9 +98,10 @@ body {
         "title"
         "description"
         "links"; */
-    border: 1px solid #c4cbcf;
+    border: 1px solid white;
     border-radius: 10px;
     /* background-color: #e4ebec; */
+    background-color: #6B006B;
     max-width: 500px;
     margin: 1.5em auto;
     padding: 1em;
@@ -218,9 +219,10 @@ body {
     padding: 1em;
     font-size: .9rem;
     line-height: 1.5;
-    border: 1px solid #c4cbcf;
+    border: 1px solid white;
     border-radius: 10px;
     /* background-color: #e4ebec; */
+    background-color: #6B006B;
     /* box-shadow: 2px 2px 5px #c4cbcf; */
     /* opacity: .95; */
 }
