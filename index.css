@@ -31,8 +31,7 @@ body {
     font-family: Garamond, serif;
     /* font-family: Arial, Helvetica, sans-serif;1 */
     /* background-color: white; */
-    background-color: #800080;
-    color: white;
+    background-color: #fefae0;
     /* background-image: url("./images/clouds.jpg"); */
     /* background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +99,8 @@ body {
         "links"; */
     border-radius: 10px;
     /* background-color: #e4ebec; */
-    background-color: #6B006B;
+    background-color: #243618;
+    color: white;
     max-width: 500px;
     margin: 1.5em auto;
     padding: 1em;
@@ -175,7 +175,7 @@ body {
     width: 120px;
     border: none;
     /* background-color: #e4ebec; */
-    background-color: #800080;
+    background-color: #244b4b;
     border: 1px solid white;
     color: white;
     border-radius: 10px;
@@ -219,7 +219,8 @@ body {
     line-height: 1.5;
     border-radius: 10px;
     /* background-color: #e4ebec; */
-    background-color: #6B006B;
+    background-color: #243618;
+    color: white;
     /* box-shadow: 2px 2px 5px #c4cbcf; */
     /* opacity: .95; */
 }
@@ -237,7 +238,7 @@ body {
     align-items: center;
     height: 9svh;
     width: 100vw;
-    background-color: #550055;
+    background-color: #698d69;
     bottom: 0;
     opacity: .90;
 }
