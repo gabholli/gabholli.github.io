@@ -100,7 +100,7 @@ body {
     border-radius: 10px;
     /* background-color: #e4ebec; */
     /* background-color: #243618; */
-    background-color: white;
+    background-color: whitesmoke;
     max-width: 500px;
     margin: 1.5em auto;
     padding: 1em;
@@ -229,7 +229,7 @@ body {
     border-radius: 10px;
     /* background-color: #e4ebec; */
     /* background-color: #243618; */
-    background-color: white;
+    background-color: whitesmoke;
     /* box-shadow: 2px 2px 5px #c4cbcf; */
     box-shadow: 20px 20px 20px black;
     /* opacity: .95; */
@@ -247,7 +247,7 @@ body {
     align-items: center;
     height: 9svh;
     width: 100vw;
-    background-color: white;
+    background-color: whitesmoke;
     opacity: .90;
 }
 
