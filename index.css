@@ -31,11 +31,11 @@ body {
     font-family: Raleway, sans-serif;
     /* font-family: Arial, Helvetica, sans-serif; */
     /* background-color: white; */
-    /* background-color: #fefae0; */
-    background-image: url("./images/clouds.jpg");
+    background-color: #fefae0;
+    /* background-image: url("./images/clouds.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 /* Home page rules */
@@ -99,12 +99,12 @@ body {
         "links"; */
     border-radius: 10px;
     /* background-color: #e4ebec; */
-    background-color: #243618;
-    color: white;
+    /* background-color: #243618; */
+    background-color: white;
     max-width: 500px;
     margin: 1.5em auto;
     padding: 1em;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 10px 10px 20px black;
     /* opacity: .95; */
 }
 
@@ -178,7 +178,7 @@ body {
     bottom: 20px;
     right: 20px;
     z-index: 1000;
-    background-color: #007bff;
+    background-color: #243618;
     color: white;
     border: none;
     outline: none;
@@ -228,8 +228,8 @@ body {
     line-height: 1.5;
     border-radius: 10px;
     /* background-color: #e4ebec; */
-    background-color: #243618;
-    color: white;
+    /* background-color: #243618; */
+    background-color: white;
     /* box-shadow: 2px 2px 5px #c4cbcf; */
     box-shadow: 20px 20px 20px black;
     /* opacity: .95; */
@@ -247,7 +247,7 @@ body {
     align-items: center;
     height: 9svh;
     width: 100vw;
-    background-color: #133129;
+    background-color: white;
     opacity: .90;
 }
 
@@ -259,7 +259,7 @@ body {
 
 .header-link {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 @media (min-width: 768px) {
