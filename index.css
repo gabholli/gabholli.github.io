@@ -255,6 +255,10 @@ body {
     color: white;
 }
 
+.github-icon {
+    filter: invert(100%);
+}
+
 @media (min-width: 768px) {
     .desktop {
         display: block;
