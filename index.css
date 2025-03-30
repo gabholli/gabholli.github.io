@@ -104,7 +104,7 @@ body {
     max-width: 500px;
     margin: 1.5em auto;
     padding: 1em;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 5px 5px 20px black;
     /* opacity: .95; */
 }
 
@@ -231,7 +231,7 @@ body {
     /* background-color: #243618; */
     background-color: whitesmoke;
     /* box-shadow: 2px 2px 5px #c4cbcf; */
-    box-shadow: 20px 20px 20px black;
+    box-shadow: 5px 5px 20px black;
     /* opacity: .95; */
 }
 
