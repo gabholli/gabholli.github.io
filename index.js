@@ -1,17 +1,18 @@
-const backToTopButton = document.getElementById("back-to-top-button")
+document.addEventListener("DOMContentLoaded", function () {
+    const scrollToTopBtn = document.getElementById("back-to-top-button");
 
-// Function to handle the "scroll to top" button click
-const scrollToTop = () => {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'  // for smooth scrolling
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
     });
-};
 
-if (backToTopButton) {
-    backToTopButton.addEventListener('click', scrollToTop);
-}
-
-window.addEventListener('load', () => {
-    document.querySelector('.fade-in').classList.add('visible');
+    scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
 });
