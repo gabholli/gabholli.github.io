@@ -114,7 +114,7 @@ body {
 }
 
 .projects-heading {
-    margin-top: 2em;
+    /* margin-top: 1em; */
     font-size: 2rem;
     text-align: center;
 }
@@ -207,7 +207,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 5em;
+    /* margin: 1em 0; */
 }
 
 .about-heading {
