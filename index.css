@@ -282,6 +282,18 @@ body {
         display: block;
     }
 
+    .home-page-text, .projects-heading, .about-heading {
+        font-size: 2rem;
+    }
+
+    .home-page-sub-text, .project-date, .project-description, .project-site-link, .about-paragraphs {
+        font-size: 1rem;
+    }
+    
+    .project-title {
+        font-size: 1.2rem;
+    }
+    
     .projects-container {
         grid-template: repeat(2, auto) / repeat(2, 1fr);
         gap: 2em;
