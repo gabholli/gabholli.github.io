@@ -34,8 +34,8 @@ body {
     padding: 0;
     margin: 0;
     /* font-family: Raleway, sans-serif; */
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: Garamond, serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Garamond, serif;
     /* background-color: white; */
     background-color: #fefae0;
     /* background-image: url("./images/clouds.jpg");
@@ -63,12 +63,12 @@ body {
 }
 
 .home-page-text {
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-align: center;
 }
 
 .home-page-sub-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -121,7 +121,7 @@ body {
 
 .projects-heading {
     /* margin-top: 1em; */
-    font-size: 2rem;
+    font-size: 2.4rem;
     text-align: center;
 }
 
@@ -143,20 +143,20 @@ body {
 }
 
 .project-date {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
 }
 
 .project-title {
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
     /* height: 45px; */
 }
 
 .project-description {
-    font-size: .9rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -171,7 +171,7 @@ body {
 }
 
 .project-site-link {
-    font-size: .9rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: black;
 }
@@ -217,7 +217,7 @@ body {
 }
 
 .about-heading {
-    font-size: 2rem;
+    font-size: 2.4rem;
 }
 
 #about-profile-pic {
@@ -235,7 +235,7 @@ body {
     text-indent: 5%;
     max-width: 800px;
     padding: 1em;
-    font-size: .9rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     border-radius: 10px;
     /* background-color: #e4ebec; */
