@@ -47,7 +47,7 @@ body {
 /* Home page rules */
 
 .home-page-main-content {
-    height: 91svh;
+    height: 91dvh;
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
     grid-template-areas:
@@ -256,7 +256,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 9svh;
+    height: 9dvh;
     width: 100vw;
     background-color: whitesmoke;
     opacity: .90;
