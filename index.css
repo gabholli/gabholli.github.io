@@ -271,6 +271,7 @@ body {
 .header-link {
     text-decoration: none;
     color: black;
+    font-size: 1.2rem;
 }
 
 .github-icon {
@@ -286,7 +287,7 @@ body {
         font-size: 2rem;
     }
 
-    .home-page-sub-text, .project-date, .project-description, .project-site-link, .about-paragraphs {
+    .home-page-sub-text, .project-date, .project-description, .project-site-link, .about-paragraphs, .header-link {
         font-size: 1rem;
     }
     
