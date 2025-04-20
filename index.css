@@ -63,7 +63,7 @@ body {
 }
 
 .home-page-text {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
@@ -121,7 +121,7 @@ body {
 
 .projects-heading {
     /* margin-top: 1em; */
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
 }
 
@@ -217,7 +217,7 @@ body {
 }
 
 .about-heading {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 #about-profile-pic {
