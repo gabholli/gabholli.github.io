@@ -200,7 +200,10 @@ body {
 
 .project-github-link {
     height: 25px;
-    filter: invert(100%);
+    background-color: black;
+    /* filter: invert(100%); */
+    /* filter: brightness(0) saturate(100%); */
+    border-radius: 50%;
 }
 
 .project-github-link img, .header-icon img {
