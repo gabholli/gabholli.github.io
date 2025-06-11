@@ -123,7 +123,7 @@ body {
     padding: 1em;
     border: 2px solid black;
     /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15); */
-    box-shadow: 0px 0px 20px black;
+    /* box-shadow: 0px 0px 20px gray; */
     /* opacity: .95; */
 }
 
