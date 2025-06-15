@@ -18,6 +18,7 @@
     font-family: Jost;
     src: url("./fonts/Jost-Regular.ttf");
 }
+
 /* Utility classes */
 
 .desktop {
@@ -43,7 +44,7 @@ body {
     /* font-family: Garamond, serif; */
     /* background-color: white; */
     background-color: black;
-    color: white
+    color: white;
     /* background-image: url("./images/clouds.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -189,6 +190,7 @@ body {
     text-decoration: underline;
     text-decoration-color: red;
 }
+
 .project-github-link img {
     display: inline-block;
     border-bottom: 2px solid transparent;
@@ -207,13 +209,15 @@ body {
     border-radius: 50%;
 }
 
-.project-github-link img, .header-icon img {
+.project-github-link img,
+.header-icon img {
     display: inline-block;
     border-bottom: 2px solid transparent;
     transition: border-color 0.3s ease;
 }
 
-.project-github-link:hover img, .header-icon:hover img {
+.project-github-link:hover img,
+.header-icon:hover img {
     border-bottom: 2px solid red;
 }
 
@@ -323,18 +327,25 @@ body {
         display: block;
     }
 
-    .home-page-text, .projects-heading, .about-heading {
+    .home-page-text,
+    .projects-heading,
+    .about-heading {
         font-size: 2rem;
     }
 
-    .home-page-sub-text, .project-date, .project-description, .project-site-link, .about-paragraphs, .header-link {
+    .home-page-sub-text,
+    .project-date,
+    .project-description,
+    .project-site-link,
+    .about-paragraphs,
+    .header-link {
         font-size: 1rem;
     }
-    
+
     .project-title {
         font-size: 1.2rem;
     }
-    
+
     .projects-container {
         grid-template: repeat(2, auto) / repeat(2, 1fr);
         gap: 2em;
