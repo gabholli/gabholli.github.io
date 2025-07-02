@@ -202,7 +202,8 @@ body {
     border-bottom: 2px solid red;
 }
 
-.project-github-link {
+.project-github-link,
+.header-github-link {
     height: 25px;
     background-color: black;
     /* filter: invert(100%); */
@@ -211,6 +212,7 @@ body {
 }
 
 .project-github-link img,
+,
 .header-icon img {
     display: inline-block;
     border-bottom: 2px solid transparent;
@@ -218,6 +220,7 @@ body {
 }
 
 .project-github-link:hover img,
+.header-github-link:hover img,
 .header-icon:hover img {
     border-bottom: 2px solid red;
 }
@@ -301,7 +304,8 @@ body {
     align-items: center;
     height: 9dvh;
     width: 100vw;
-    background-color: black;
+    /* background-color: black; */
+    background-color: white;
     border-bottom: 2px solid white;
     opacity: .90;
 }
@@ -314,7 +318,7 @@ body {
 
 .header-link {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 1.2rem;
 }
 
