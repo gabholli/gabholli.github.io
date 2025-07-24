@@ -13,7 +13,6 @@ body {
     background-color: black;
     font-family: Jost, "Arial", sans-serif;
     color: white;
-    padding: 0 4em;
 }
 
 /* Header rules */
@@ -188,10 +187,20 @@ body {
     height: auto;
 }
 
+@media (min-width: 768px) {
+    body {
+        padding: 0 4em;
+    }
+
+}
 
 @media (min-width: 1024px) {
     html {
         font-size: 18px;
+    }
+
+    body {
+        padding: 0 4em;
     }
 
     .header {
@@ -276,5 +285,17 @@ body {
         align-items: flex-start;
         justify-content: center;
         align-self: center;
+    }
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 2560px) {
+    html {
+        font-size: 50px;
     }
 }
