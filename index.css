@@ -130,6 +130,13 @@ body {
     margin-top: 1em;
 }
 
+.project-github-link img {
+    width: 38px;
+    height: auto;
+    margin-top: .4em;
+}
+
+
 .project-site-link {
     text-decoration: none;
     color: red;
