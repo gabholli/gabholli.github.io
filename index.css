@@ -4,17 +4,26 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Jost;
+    src: url("./fonts/Jost-Regular.ttf");
+}
+
 body {
     background-color: black;
+    font-family: Jost, "Arial", sans-serif;
     color: white;
-    font-family: "Arial", sans-serif;
+    padding: 0 4em;
 }
 
 /* Header rules */
 
 
 .header {
-    padding: 1.5em;
+    display: flex;
+    align-items: center;
+    height: 9dvh;
+    justify-content: center;
 }
 
 .header-nav {
@@ -46,6 +55,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 2em;
+    height: 91dvh;
+    margin-bottom: 1.5em;
 }
 
 .main-title {
@@ -69,20 +80,201 @@ body {
 /* Projects rules */
 
 .projects-container {
-    padding: 1em;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
 }
 
 .projects-title {
     font-size: 2.5rem;
     margin-top: 1.5em;
+    margin: 1.5em 0 -.5em;
+
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.project-title {
+    font-size: 2rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: .5em;
+}
+
+.project-description {
+    font-size: 1.2rem;
+    margin-top: -.5em;
+}
+
+.project-technologies {
+    margin: 0;
+    padding: 0 1em;
+}
+
+.project-technologies li {
+    margin-top: .5em;
+}
+
+.project-link-and-icon {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.project-site-link {
+    text-decoration: none;
+    color: red;
+    font-size: 1.2rem;
+}
+
+/* About me rules */
+
+.about-container {
+    margin-top: 2em;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.about-title {
+    font-size: 2.5rem;
+}
+
+.about-text,
+.about-text-two {
+    margin-top: .5em;
+    line-height: 1.5;
+}
+
+.resume-link {
+    padding: 1em 4.2em;
+    background-color: red;
+    color: white;
+    margin-top: 1.5em;
+    display: inline-block;
+    text-decoration: none;
 }
 
 /* Footer rules */
 
 .footer-container {
+    margin-top: 1em;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1.5em;
-    gap: 1.5em;
+    gap: 2.5em;
+}
+
+.footer-container img {
+    width: 36px;
+    height: auto;
+}
+
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 18px;
+    }
+
+    .header {
+        justify-content: flex-end;
+        margin-right: 5em;
+        gap: 12em;
+    }
+
+    .main-content {
+        align-items: flex-start;
+    }
+
+    .projects-container {
+        padding: 2em;
+    }
+
+    .project-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "title image"
+            "description image"
+            "technologies image"
+            "link image";
+    }
+
+    .project-image {
+        grid-area: image;
+        width: 100%;
+        height: auto;
+        align-self: center;
+    }
+
+    .project-description {
+        grid-area: description;
+        font-size: 1.2rem;
+    }
+
+    .project-technologies {
+        grid-area: technologies;
+        margin: 0;
+        padding: 0 1em;
+    }
+
+    .project-title {
+        grid-area: title;
+        font-size: 2rem;
+    }
+
+    .project-link-and-icon {
+        grid-area: link;
+        display: flex;
+        align-items: center;
+        gap: 2em;
+        margin-top: 1em;
+    }
+
+    .project-site-link {
+        font-size: 1.2rem;
+    }
+
+    .about-image {
+        width: 75%;
+        height: auto;
+        border-radius: 10px;
+        align-self: center;
+        justify-self: center;
+        margin-top: 2em;
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "image details";
+    }
+
+    .about-sub-container {
+        grid-area: details;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        align-self: center;
+    }
 }
