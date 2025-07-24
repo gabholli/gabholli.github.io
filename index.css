@@ -171,6 +171,31 @@ body {
     text-decoration: none;
 }
 
+/* Back to top button rues */
+
+#back-to-top-button {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease-in-out;
+}
+
+#back-to-top-button:hover {
+    background-color: #0056b3;
+}
+
 /* Footer rules */
 
 .footer-container {
@@ -263,7 +288,7 @@ body {
     }
 
     .about-image {
-        width: 75%;
+        width: 100%;
         height: auto;
         border-radius: 10px;
         align-self: center;
@@ -273,9 +298,14 @@ body {
 
     .about-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 150px 1fr;
         grid-template-areas:
-            "image details";
+            "title title title"
+            "image . details";
+    }
+
+    .about-title {
+        grid-area: title;
     }
 
     .about-sub-container {
