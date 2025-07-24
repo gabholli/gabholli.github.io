@@ -83,6 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4em;
+    margin-bottom: 3em;
 }
 
 .projects-title {
@@ -147,6 +148,7 @@ body {
 
 .about-container {
     margin-top: 2em;
+    margin-bottom: 4em;
     padding: 0 1em;
     display: flex;
     flex-direction: column;
