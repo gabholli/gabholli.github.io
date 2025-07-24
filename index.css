@@ -338,4 +338,8 @@ body {
     html {
         font-size: 50px;
     }
+
+    .about-sub-container {
+        font-size: .8rem;
+    }
 }
