@@ -1,224 +1,37 @@
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Gabe Hollifield's Personal Website - Home Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Page</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon/profile-pic-two.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="tzeLfxBkXlC5eBTqZEKuBv-g6ZudhXwjxwQ3wTJJB0Y" />
-    <meta charset="utf-8">
 </head>
 
 <body>
-    <header class="header-container">
-        <div class="header-sub-container">
-            <a class="header-icon" href="https://www.linkedin.com/in/gabe-hollifield">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                    alt="LinkedIn" width="24">
-            </a>
-            <a class="header-github-link" href="https://www.github.com/gabholli">
-                <img src="images/github-icon.png" alt="GitHub" width="24">
-            </a>
-            <a class="header-link" href="#projects">Projects</a>
-            <a class="header-link" href="./assets/Gabe_Hollifield_Resume_Portfolio.pdf">Resume</a>
-            <a class="header-link" href="#about">About Me</a>
-        </div>
+    <header class="header">
+        <nav class="header-nav">
+            <div class="header-links">
+                <a class="header-link" href="#home">Home</a>
+                <a class="header-link" href="#about">About</a>
+                <a class="header-link" href="#contact">Contact</a>
+            </div>
+        </nav>
     </header>
-    <main class="home-page-main-content">
-        <div class="home-page-container">
-            <h1 class="home-page-text">I'm Gabe Hollifield</h1>
-            <p class="home-page-sub-text">an aspiring web developer</p>
-        </div>
+    <main class="main-content">
+        <h1 class="main-title">Gabe Hollifield</h1>
+        <p class="main-text">A web developer based in West Sacramento, CA</p>
+        <button class="touch-button">Get in touch</button>
     </main>
-    <div class="mid-section-container">
-        <div class="web-heading-container" id="projects">
-            <h1 class="projects-heading">Web Development Projects</h1>
-        </div>
-        <div class="projects-container">
-            <section class="project-section">
-                <a href="https://gabholli-news-website.netlify.app" class="project-link"><img class="project-image"
-                        src="./images/top-headlines.png" alt="Country Information website"></a>
-                <p class="project-date">March 19, 2025</p>
-                <h2 class="project-title">Top Headlines</h2>
-                <p class="project-description">
-                    This site shows current top headlines in the news, created using Next.js with
-                    the App Router, Tailwind CSS, and TypeScript.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://gabholli-news-website.netlify.app" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/news-website">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-            <section class="project-section">
-                <a href="https://gabholli-countries-site.netlify.app" class="project-link"><img class="project-image"
-                        src="./images/countries.png" alt="Country Information website"></a>
-                <p class="project-date">March 11, 2025</p>
-                <h2 class="project-title">Countries List</h2>
-                <p class="project-description">
-                    I created this site using React Router 7 as a framework along with Tailwind CSS
-                    and TypeScript, showing some information about different countries.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://gabholli-countries-site.netlify.app" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/countries-site">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-            <section class="project-section">
-                <a href="https://lotr-site-v2.vercel.app" class="project-link"><img class="project-image"
-                        src="./images/lotr-site-v2.png" alt="Lord of the Rings website"></a>
-                <p class="project-date">December 16, 2024</p>
-                <h2 class="project-title">Lord of the Rings Compendium</h2>
-                <p class="project-description">
-                    This site shows a little bit of information about the Lord of the Rings,
-                    created using Next.js, Tailwind CSS, and TypeScript.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://lotr-site-v2.vercel.app" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/lotr-site-v2">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-            <section class="project-section">
-                <a href="https://dog-information.netlify.app" class="project-link"><img class="project-image"
-                        src="./images/dog-info-site.png" alt="Dog information website"></a>
-                <p class="project-date">December 3, 2024</p>
-                <h2 class="project-title">Dog Information Website</h2>
-                <p class="project-description">
-                    This site shows some brief imformation about different dog breeds, established using Next.js,
-                    Tailwind CSS, and TypeScript. I used the App Router.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://dog-information.netlify.app" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/dog-site-v3">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-            <section class="project-section">
-                <a href="https://gabholli-recipe-site.netlify.app" class="project-link"><img class="project-image"
-                        src="./images/recipe-site.png" alt="Recipe website"></a>
-                <p class="project-date">May 17, 2024</p>
-                <h2 class="project-title">Recipe Repository</h2>
-                <p class="project-description">
-                    For this project, I added functionality to show different food recipes. This site
-                    shows imformation based on what is entered in a simple form, established using React.js,
-                    Tailwind CSS, and React Router 7.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://gabholli-recipe-site.netlify.app/" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/recipe-site">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-            <section class="project-section">
-                <a href="https://gabholli-quizzical.netlify.app" class="project-link"><img class="project-image"
-                        src="./images/quizzical.png" alt="Trivia quiz website"></a>
-                <p class="project-date">May 12, 2024</p>
-                <h2 class="project-title">Quizzical</h2>
-                <p class="project-description">
-                    I made this project with React.js. I linked to a trivia API, taking five random questions
-                    and keeping track of the player's score using state management.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://gabholli-quizzical.netlify.app" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/quizzical">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-            <section class="project-section">
-                <a href="https://gabholli-media-site.netlify.app/" class="project-link"><img class="project-image"
-                        src="./images/media-site.png" alt="Media website"></a>
-                <p class="project-date">May 1, 2024</p>
-                <h2 class="project-title">Media Finder</h2>
-                <p class="project-description mobile-para normal-line-height">
-                    This website takes data from a media API, created using React.js,
-                    Tailwind CSS, Next.js, and TypeScript. I used the Pages Router.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://gabholli-media-site.netlify.app/" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/media-site">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-            <section class="project-section">
-                <a href="https://gabholli-e-commerce.netlify.app" class="project-link"><img class="project-image"
-                        src="./images/e-commerce.png" alt="E-Commerce website"></a>
-                <p class="project-date">April 24, 2024</p>
-                <h2 class="project-title">React Shop</h2>
-                <p class="project-description mobile-para normal-line-height">
-                    This website was designed by drawing from a mock E-commerce API, utilizing
-                    React.js, Tailwind CSS, JavaScript, and React Router 7.
-                    Protected routes are used to simulate logging in and out of the site
-                    (test credentials were provided). A basic shopping cart holds items of
-                    interest.
-                </p>
-                <div class="project-link-and-icon">
-                    <a href="https://gabholli-e-commerce.netlify.app" class="project-site-link">
-                        Visit Site <span>&rarr;</span>
-                    </a>
-                    <a class="project-github-link" href="https://github.com/gabholli/e-commerce-site-v2">
-                        <img src="images/github-icon.png" alt="GitHub" width="24">
-                    </a>
-                </div>
-            </section>
-        </div>
-    </div>
-    <div class="about-page-main-container" id="about">
-        <header class="about-page-heading-container">
-            <h1 class="about-heading">About Me</h1>
-        </header>
-        <main class="about-paragraphs">
-            <img id="about-profile-pic" src="./images/profile-pic-two.jpg" alt="Image of me">
-
-            <p>
-                Welcome to my personal website! I am currently working
-                as a web developer at MindHome, Inc., a company focused
-                on making robots for use in the home. I currently complete alterations to the MindHome website.
-            </p>
-            <p>
-                I am constantly studying in depth to improve my skills
-                with the three main elements of web development: HTML5, CSS3, and JavaScript.
-                I also learned (and continually learn) about React.js, Next.js and Tailwind CSS.
-                I am also currently learning about React Router 7, a new framework.
-            </p>
-            <p>
-                In the past, I graduated from Western Governors University with a
-                bachelor's degree in software development.
-                I took courses covering data structures, algorithms,
-                software engineering, software quality assurance, and web development.
-            </p>
-            <p>
-                I'm always looking to grow my personal and professional
-                network. So feel free to connect via LinkedIn!
-            </p>
-        </main>
-    </div>
-    <button class="back-to-top-button" id="back-to-top-button">&#8679;</button>
-    <script type="module" src="index.js"></script>
-    <!-- <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script> -->
+    <footer class="footer-container">
+        <a class="footer-icon" href="https://www.linkedin.com/in/gabe-hollifield">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"
+                width="24">
+        </a>
+        <a class="footer-github-link" href="https://www.github.com/gabholli">
+            <img src="images/github-icon.png" alt="GitHub" width="24">
+        </a>
+    </footer>
 </body>
 
 </html>
