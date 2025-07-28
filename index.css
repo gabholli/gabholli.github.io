@@ -210,7 +210,20 @@ body {
     margin-top: 1.5em;
     display: inline-block;
     text-decoration: none;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
 }
+
+.resume-link:hover,
+.resume-link:focus,
+.resume-link:active {
+    background-size: 100% 0.1em;
+}
+
 
 /* Back to top button rues */
 
