@@ -45,7 +45,20 @@ body {
 .header-link {
     text-decoration: none;
     color: white;
+    background-image: linear-gradient(white, white);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
 }
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    background-size: 100% 0.1em;
+}
+
 
 /* Main content rules */
 
@@ -141,10 +154,23 @@ body {
 
 
 .project-site-link {
-    text-decoration: none;
     color: #C51E3A;
     font-size: 1.2rem;
+    text-decoration: none;
+    background-image: linear-gradient(#d99a5a, #d99a5a);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
 }
+
+.project-site-link:hover,
+.project-site-link:focus,
+.project-site-link:active {
+    background-size: 100% 0.1em;
+}
+
 
 /* About me rules */
 
