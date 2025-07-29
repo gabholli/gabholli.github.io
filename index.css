@@ -301,12 +301,12 @@ body {
 
     .project-card {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 20px 1fr;
         grid-template-areas:
-            "title image"
-            "description image"
-            "technologies image"
-            "link image";
+            "title . image"
+            "description . image"
+            "technologies . image"
+            "link . image";
     }
 
     .project-image {
