@@ -9,10 +9,16 @@
     src: url("./fonts/Jost-Regular.ttf");
 }
 
+@font-face {
+    font-family: Garamond;
+    src: url("./fonts/CormorantGaramond-Medium.ttf");
+}
+
 body {
     background-color: black;
-    font-family: Jost, "Arial", sans-serif;
+    /* font-family: Jost, "Arial", sans-serif; */
     /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Garamond, serif;
     color: white;
 }
 
