@@ -309,10 +309,10 @@ body {
         display: grid;
         grid-template-columns: 1fr 20px 1fr;
         grid-template-areas:
-            "title . image"
+            "title . ."
             "description . image"
             "technologies . image"
-            "link . image";
+            "link . .";
     }
 
     .project-image {
